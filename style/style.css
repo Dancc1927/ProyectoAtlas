@@ -282,22 +282,273 @@ footer{
    }
     }
 
-
- 
-
-
-@media (min-width: 481em){
-    body{
-        background-color: black;
+/* Smartphones (max-width: 480px) */
+@media (max-width: 480px) {
+    .t1{
+        margin-top: 40%;
     }
-  .boton8{
-    display: flex;
-    width: 5px;
-    font-size: 10px;
-  }
+
+    .princ p {
+        font-size: 70%;
+    }
+    .princ {
+        height: auto;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .p1 {
+        width: 100%;
+        padding: 20px;
+        font-size: 20px;
+    }
+    
+    .contenedores {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .t1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .dos {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .take, .parte3, .cuatro, .seis {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .botones {
+        width: 100%;
+    }
+    
+    .colum {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .boton6, .boton7 {
+        width: 100%;
+    }
+    
+    .boton8, .boton9 {
+        width: 100%;
+    }
+    
+    .cinco {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .text3, .texto, .conta {
+        width: 90%;
+        text-align: center;
+    }
+    
+    .uno1, .dos2, .tres3 {
+        width: 90%;
+        margin: 10px 0;
+    }
+    
+    .n {
+        margin: 0 auto;
+    }
+    
+    .logos {
+        margin: 0;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    footer {
+        text-align: center;
+    }
+
+    footer img {
+        width: 10%;
+        height: 10%;
+    }
 }
-@media (min-width: 769em){
-    body{
-        background-color: #192440;
+
+/* Tablets (max-width: 768px) */
+@media (max-width: 768px) {
+    .contenedores, .dos, .parte3, .cuatro, .seis {
+        flex-direction: column;
+    }
+    
+    .text3, .texto, .conta {
+        width: 80%;
+    }
+    
+    .uno1, .dos2, .tres3 {
+        width: 80%;
+        margin: 10px 0;
+    }
+    
+    .botones {
+        width: 100%;
+    }
+    
+    .colum {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .boton6, .boton7, .boton8, .boton9 {
+        width: 100%;
+    }
+    
+    .cinco {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .t1 {
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    .p1 {
+        width: 90%;
+        padding: 40px;
+        font-size: 25px;
+    }
+    
+    .princ {
+        height: auto;
+        padding: 20px;
+    }
+    
+    .take, .parte3, .cuatro, .seis {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    footer {
+        text-align: center;
+    }
+}
+
+/* Laptops (max-width: 920px) */
+@media (max-width: 920px) {
+    .contenedores, .dos, .parte3, .cuatro, .seis {
+        flex-direction: column;
+    }
+    
+    .text3, .texto, .conta {
+        width: 75%;
+    }
+    
+    .uno1, .dos2, .tres3 {
+        width: 75%;
+        margin: 10px 0;
+    }
+    
+    .botones {
+        width: 90%;
+    }
+    
+    .colum {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .boton6, .boton7, .boton8, .boton9 {
+        width: 100%;
+    }
+    
+    .cinco {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .t1 {
+        font-size: 45px;
+        text-align: center;
+    }
+    
+    .p1 {
+        width: 85%;
+        padding: 40px;
+        font-size: 28px;
+    }
+    
+    .princ {
+        height: auto;
+        padding: 20px;
+    }
+    
+    .take, .parte3, .cuatro, .seis {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    footer {
+        text-align: center;
+    }
+}
+
+/* Small desktops (max-width: 1279px) */
+@media (max-width: 1279px) {
+    .contenedores, .dos, .parte3, .cuatro, .seis {
+        flex-direction: column;
+    }
+    
+    .text3, .texto, .conta {
+        width: 70%;
+    }
+    
+    .uno1, .dos2, .tres3 {
+        width: 70%;
+        margin: 10px 0;
+    }
+    
+    .botones {
+        width: 85%;
+    }
+    
+    .colum {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .boton6, .boton7, .boton8, .boton9 {
+        width: 100%;
+    }
+    
+    .cinco {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .t1 {
+        font-size: 48px;
+        text-align: center;
+    }
+    
+    .p1 {
+        width: 80%;
+        padding: 40px;
+        font-size: 29px;
+    }
+    
+    .princ {
+        height: auto;
+        padding: 20px;
+    }
+    
+    .take, .parte3, .cuatro, .seis {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    footer {
+
+        text-align: center;
     }
 }
